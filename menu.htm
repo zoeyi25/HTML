@@ -1,12 +1,562 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+.menuHeadings {
+  background-color: red;
+  color: yellow;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+tr:nth-child(odd) {
+  background-color: #d3d3d3;
+}
+</style>
   <meta charset = "utf-8"/>
 <title>McDonald's</title>
 </head>
 <body>
 
-  <h1>Menu</h1>
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Burgers</p>
+    <p style="font-size: 120%;font-family:verdana;"><i>Meals Include Medium French Fries or Salad & Soft Drink</i></p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Big Mac</td>
+      <td></td>
+      <td>$3.99</td>
+    </tr>
+    <tr>
+      <td>Big Mac – Meal</td>
+      <td></td>
+      <td>$5.99</td>
+    </tr>
+    <tr>
+      <td>2 Cheeseburgers</td>
+      <td></td>
+      <td>$2.00</td>
+    </tr>
+    <tr>
+      <td>2 Cheeseburgers – Meal</td>
+      <td></td>
+      <td>$4.89</td>
+    </tr>
+    <tr>
+      <td>Quarter Pounder with Cheese</td>
+      <td></td>
+      <td>$3.79</td>
+    </tr>
+    <tr>
+      <td>Quarter Pounder with Cheese – Meal</td>
+      <td></td>
+      <td>$5.79</td>
+    </tr>
+    <tr>
+      <td>Double Quarter Pounder with Cheese</td>
+      <td></td>
+      <td>$4.79</td>
+    </tr>
+    <tr>
+      <td>Double Quarter Pounder with Cheese – Meal</td>
+      <td></td>
+      <td>$6.69</td>
+    </tr>
+    <tr>
+      <td>Bacon Clubhouse Burger</td>
+      <td></td>
+      <td>$4.49</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Chicken & Sandwiches</p>
+    <p style="font-size: 120%;font-family:verdana;"><i>Meals Include Medium French Fries or Salad & Soft Drink</i></p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Bacon Clubhouse Burger – Meal</td>
+      <td></td>
+      <td>$6.49</td>
+    </tr>
+    <tr>
+      <td>Buttermilk Crispy Chicken</td>
+      <td></td>
+      <td>$4.39</td>
+    </tr>
+    <tr>
+      <td>Buttermilk Crispy Chicken – Meal</td>
+      <td></td>
+      <td>$6.39</td>
+    </tr>
+    <tr>
+      <td>Artisan Grilled Chicken</td>
+      <td></td>
+      <td>$4.39</td>
+    </tr>
+    <tr>
+      <td>Artisan Grilled Chicken – Meal</td>
+      <td></td>
+      <td>$6.39</td>
+    </tr>
+    <tr>
+      <td>Premium McWrap Chicken & Bacon (Grilled or Crispy)</td>
+      <td></td>
+      <td>$4.39</td>
+    </tr>
+    <tr>
+      <td>Premium McWrap Chicken & Bacon (Grilled or Crispy) – Meal</td>
+      <td></td>
+      <td>$6.39</td>
+    </tr>
+    <tr>
+      <td>Premium McWrap Chicken & Ranch (Grilled or Crispy)</td>
+      <td></td>
+      <td>$4.39</td>
+    </tr>
+    <tr>
+      <td>Premium McWrap Chicken & Ranch (Grilled or Crispy) – Meal</td>
+      <td></td>
+      <td>$6.39</td>
+    </tr>
+    <tr>
+      <td>Premium McWrap Sweet Chili Chicken (Grilled or Crispy)</td>
+      <td></td>
+      <td>$4.39</td>
+    </tr>
+    <tr>
+      <td>Premium McWrap Sweet Chili Chicken (Grilled or Crispy) – Meal</td>
+      <td></td>
+      <td>$6.39</td>
+    </tr>
+    <tr>
+      <td>Filet-O-Fish</td>
+      <td></td>
+      <td>$3.79</td>
+    </tr>
+    <tr>
+      <td>Filet-O-Fish – Meal</td>
+      <td></td>
+      <td>$5.79</td>
+    </tr>
+    <tr>
+      <td>Double Filet-O-Fish</tdtd>
+      <td></td>
+      <td>$4.79</td>
+    </tr>
+    <tr>
+      <td>Double Filet-O-Fish – Meal</td>
+      <td></td>
+      <td>$6.79</td>
+    </tr>
+    <tr>
+      <td>Premium Chicken Bacon Clubhouse (Grilled or Crispy)</td>
+      <td></td>
+      <td>$4.49</td>
+    </tr>
+    <tr>
+      <td>Premium Chicken Bacon Clubhouse (Grilled or Crispy) – Meal</td>
+      <td></td>
+      <td>$6.49</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Nuggets</p>
+    <p style="font-size: 120%;font-family:verdana;"><i>Meals Include Medium French Fries or Salad & Soft Drink</i></p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Chicken McNuggets (Regular or Spicy)</td>
+      <td>10 Pc.</td>
+      <td>$4.49</td>
+    </tr>
+    <tr>
+      <td>Chicken McNuggets – Meal (Regular or Spicy)</td>
+      <td>10 Pc.</td>
+      <td>$6.49</td>
+    </tr>
+    <tr>
+      <td>Chicken McNuggets (Regular or Spicy)</td>
+      <td>20 Pc.</td>
+      <td>$5.00</td>
+    </tr>
+    <tr>
+      <td>Chicken McNuggets (Regular or Spicy)</td>
+      <td>40 Pc.</td>
+      <td>$8.99</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Salads</p>
+    <p style="font-size: 120%;font-family:verdana;"><i>Grilled or Crispy Chicken</i></p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Southwest Salad</td>
+      <td></td>
+      <td>$4.79</td>
+    </tr>
+    <tr>
+      <td>Bacon Ranch Salad</td>
+      <td></td>
+      <td>$4.59</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Snacks and Sides</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Donut Sticks</td>
+      <td></td>
+      <td>$2.59</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>Small</td>
+      <td>$1.39</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>Medium</td>
+      <td>$1.79</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>Large</td>
+      <td>$1.89</td>
+    </tr>
+    <tr>
+      <td>Minute Maid Slushie (Blue Rapsberry, Fruit Punch, Pink Lemonade)</td>
+      <td></td>
+      <td>$2.00</td>
+    </tr>
+    <tr>
+      <td>Apple Slices</td>
+      <td></td>
+      <td>$1.00</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Desserts and Shakes</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Shake (Chocolate, Vanilla, or Strawberry)</td>
+      <td>Small</td>
+      <td>$2.19</td>
+    </tr>
+    <tr>
+      <td>Shake (Chocolate, Vanilla, or Strawberry)</td>
+      <td>Medium</td>
+      <td>$2.59</td>
+    </tr>
+    <tr>
+      <td>Shake (Chocolate, Vanilla, or Strawberry)</td>
+      <td>Large</td>
+      <td>$2.99</td>
+    </tr>
+    <tr>
+      <td>Sundae (Hot Fudge or Caramel)</td>
+      <td>Large</td>
+      <td>$1.29</td>
+    </tr>
+    <tr>
+      <td>Cone (Vanilla)</td>
+      <td></td>
+      <td>$1.00</td>
+    </tr>
+    <tr>
+      <td>McFlurry</td>
+      <td>Snack</td>
+      <td>$1.79</td>
+    </tr>
+    <tr>
+      <td>McFlurry</td>
+      <td>Regular</td>
+      <td>$2.39</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Happy Meals</p>
+    <p style="font-size: 120%;font-family:verdana;"><i>Includes Kids French Fries, Side & Drink</i></p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Chicken McNuggets</td>
+      <td>4 Pc.</td>
+      <td>$3.29</td>
+    </tr>
+    <tr>
+      <td>Hamburger</td>
+      <td>Medium</td>
+      <td>$2.49</td>
+    </tr>
+    <tr>
+      <td>Cheeseburger</td>
+      <td>Large</td>
+      <td>$2.79</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Oatmeal</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Fruit & Maple Oatmeal</td>
+      <td></td>
+      <td>$1.99</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">$1 $2 $3 Menu</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Soft Drink</td>
+      <td>Small</td>
+      <td>$1.00</td>
+    </tr>
+    <tr>
+      <td>Specialty McCafé® beverages</td>
+      <td>Small</td>
+      <td>$2.00</td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Sauces and Dressings</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Mighty Hot Sauce</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sweet ‘N Sour</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hot Mustard</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Creamy Ranch</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mustard</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tangy Honey Mustard</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Spicy Buffalo</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Hot Picante Salsa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mild Picante Salsa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mild Picante Salsa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Low-Fat Balsamic Viniagrette</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Southwest</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <div class="menuHeadings">
+    <p style="font-size: 300%;font-family:verdana;">Limited Time Offers</p>
+  </div>
+
+  <table>
+    <tr>
+      <th>Food</th>
+      <th>Size</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>McRib</td>
+      <td></td>
+      <td>$3.69</td>
+    </tr>
+    <tr>
+      <td>Holiday Pie</td>
+      <td></td>
+      <td>$0.89</td>
+    </tr>
+    <tr>
+      <td>Spicy McChicken</td>
+      <td></td>
+      <td>$1.00</td>
+    </tr>
+    <tr>
+      <td>Shamrock Shake</td>
+      <td>Small</td>
+      <td>$2.19</td>
+    </tr>
+    <tr>
+      <td>Shamrock Shake</td>
+      <td>Medium</td>
+      <td>$2.59</td>
+    </tr>
+    <tr>
+      <td>Shamrock Shake</td>
+      <td>Large</td>
+      <td>$2.99</td>
+    </tr>
+    <tr>
+      <td>Lobster Roll</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Spicy Chicken McNuggets</td>
+      <td>10 Pc.</td>
+      <td>$4.35</td>
+    </tr>
+    <tr>
+      <td>Frozen Strawberry Lemonade</td>
+      <td>Medium</td>
+      <td>$2.59</td>
+    </tr>
+    <tr>
+      <td>Asian Chicken Salad</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Angus Chipotle BBQ Burger</td>
+      <td></td>
+      <td>$9.75</td>
+    </tr>
+    <tr>
+      <td>Chicken McBites</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cherry Berry Chiller</td>
+      <td>Small</td>
+      <td>$1.69</td>
+    </tr>
+    <tr>
+      <td>Cherry Berry Chiller</td>
+      <td>Medium</td>
+      <td>$1.99</td>
+    </tr>
+    <tr>
+      <td>Cherry Berry Chiller</td>
+      <td>Large</td>
+      <td>$2.29</td>
+    </tr>
+  </table>
 
 </body>
 </html>
